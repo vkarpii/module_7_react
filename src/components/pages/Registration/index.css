@@ -1,0 +1,41 @@
+* {box-sizing: border-box}
+
+
+.register-form input[type=text],.register-form  input[type=password] {
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.register-form  input[type=text]:focus,.register-form  input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    text-align: center;
+}
